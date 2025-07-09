@@ -1,0 +1,59 @@
+{
+  "question_1": {
+    "criteria": [
+      {
+        "aspect": "correctness",
+        "description": "Code correctly calculates the sum of numbers in a list",
+        "weight": 50
+      },
+      {
+        "aspect": "style",
+        "description": "Code follows Python best practices with clear variable names",
+        "weight": 25
+      },
+      {
+        "aspect": "explanation",
+        "description": "Markdown explanation describes the approach clearly",
+        "weight": 25
+      }
+    ]
+  },
+  "question_2": {
+    "criteria": [
+      {
+        "aspect": "correctness",
+        "description": "Function correctly finds the maximum value in a list",
+        "weight": 60
+      },
+      {
+        "aspect": "edge_cases",
+        "description": "Code handles edge cases like empty lists appropriately",
+        "weight": 20
+      },
+      {
+        "aspect": "documentation",
+        "description": "Function includes docstring and comments",
+        "weight": 20
+      }
+    ]
+  },
+  "question_3": {
+    "criteria": [
+      {
+        "aspect": "correctness",
+        "description": "Data visualization accurately represents the data",
+        "weight": 40
+      },
+      {
+        "aspect": "presentation",
+        "description": "Plot has proper labels, title, and formatting",
+        "weight": 30
+      },
+      {
+        "aspect": "analysis",
+        "description": "Written analysis interprets the visualization correctly",
+        "weight": 30
+      }
+    ]
+  }
+}

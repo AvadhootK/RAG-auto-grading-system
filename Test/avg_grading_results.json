@@ -1,0 +1,162 @@
+{
+  "notebook_path": "Test/avg_sample_notebook.ipynb",
+  "overall_score": 7.666666666666667,
+  "overall_confidence": 70.0,
+  "questions_graded": 3,
+  "question_results": {
+    "question_1": {
+      "aspect_scores": {
+        "correctness": {
+          "score": 10.0,
+          "max_score": 10,
+          "weight": 50
+        },
+        "style": {
+          "score": 8.0,
+          "max_score": 10,
+          "weight": 25
+        },
+        "explanation": {
+          "score": 8.0,
+          "max_score": 10,
+          "weight": 25
+        }
+      },
+      "final_score": 9.0,
+      "confidence": 70,
+      "feedback": "The code correctly calculates the sum of numbers in the list, demonstrating full correctness. The variable names are clear, but the style could be improved by using more Pythonic syntax, such as `total += number`. The explanation is clear but could benefit from more detail on the algorithm used. Overall, a solid submission.",
+      "reasoning_summary": "SCORES: [Correctness: 10/10, Style: 8/10, Explanation: 8/10]\nFEEDBACK: The code correctly calculates the sum of numbers in the list, demonstrating full correctness. The variable names are clear, but the style could be improved by using more Pythonic syntax, such as `total += number`. The explanation is clear but could benefit from more detail on the algorithm used. Overall, a solid submission.\nOVERALL: 9/10",
+      "question_id": "question_1",
+      "raw_response": "SCORES: [Correctness: 10/10, Style: 8/10, Explanation: 8/10]\nFEEDBACK: The code correctly calculates the sum of numbers in the list, demonstrating full correctness. The variable names are clear, but the style could be improved by using more Pythonic syntax, such as `total += number`. The explanation is clear but could benefit from more detail on the algorithm used. Overall, a solid submission.\nOVERALL: 9/10",
+      "rubric_criteria_used": [
+        {
+          "text": "Question: question_1\nAspect: correctness\nDescription: Code correctly calculates the sum of numbers in a list\nWeight: 50%",
+          "question_id": "question_1",
+          "aspect": "correctness",
+          "description": "Code correctly calculates the sum of numbers in a list",
+          "weight": 50,
+          "similarity": 0.5329855680465698
+        },
+        {
+          "text": "Question: question_1\nAspect: style\nDescription: Code follows Python best practices with clear variable names\nWeight: 25%",
+          "question_id": "question_1",
+          "aspect": "style",
+          "description": "Code follows Python best practices with clear variable names",
+          "weight": 25,
+          "similarity": 0.2269800901412964
+        },
+        {
+          "text": "Question: question_1\nAspect: explanation\nDescription: Markdown explanation describes the approach clearly\nWeight: 25%",
+          "question_id": "question_1",
+          "aspect": "explanation",
+          "description": "Markdown explanation describes the approach clearly",
+          "weight": 25,
+          "similarity": 0.06230653077363968
+        }
+      ]
+    },
+    "question_2": {
+      "aspect_scores": {
+        "correctness": {
+          "score": 8.0,
+          "max_score": 10,
+          "weight": 60
+        },
+        "edge_cases": {
+          "score": 2.0,
+          "max_score": 10,
+          "weight": 20
+        },
+        "documentation": {
+          "score": 5.0,
+          "max_score": 10,
+          "weight": 20
+        }
+      },
+      "final_score": 5.0,
+      "confidence": 70,
+      "feedback": "The function correctly finds the maximum value in a list for typical cases, but it does not handle edge cases such as empty lists, which could lead to an error. The code includes a basic comment, but it lacks a proper docstring explaining the function's purpose and parameters. Improving documentation and handling edge cases would enhance the overall quality of the code.",
+      "reasoning_summary": "SCORES: [Correctness: 8/10, Edge_Cases: 2/10, Documentation: 5/10]\nFEEDBACK: The function correctly finds the maximum value in a list for typical cases, but it does not handle edge cases such as empty lists, which could lead to an error. The code includes a basic comment, but it lacks a proper docstring explaining the function's purpose and parameters. Improving documentation and handling edge cases would enhance the overall quality of the code.\nOVERALL: 5/10",
+      "question_id": "question_2",
+      "raw_response": "SCORES: [Correctness: 8/10, Edge_Cases: 2/10, Documentation: 5/10]\nFEEDBACK: The function correctly finds the maximum value in a list for typical cases, but it does not handle edge cases such as empty lists, which could lead to an error. The code includes a basic comment, but it lacks a proper docstring explaining the function's purpose and parameters. Improving documentation and handling edge cases would enhance the overall quality of the code.\nOVERALL: 5/10",
+      "rubric_criteria_used": [
+        {
+          "text": "Question: question_2\nAspect: correctness\nDescription: Function correctly finds the maximum value in a list\nWeight: 60%",
+          "question_id": "question_2",
+          "aspect": "correctness",
+          "description": "Function correctly finds the maximum value in a list",
+          "weight": 60,
+          "similarity": 0.4898609519004822
+        },
+        {
+          "text": "Question: question_2\nAspect: edge_cases\nDescription: Code handles edge cases like empty lists appropriately\nWeight: 20%",
+          "question_id": "question_2",
+          "aspect": "edge_cases",
+          "description": "Code handles edge cases like empty lists appropriately",
+          "weight": 20,
+          "similarity": 0.24626651406288147
+        },
+        {
+          "text": "Question: question_2\nAspect: documentation\nDescription: Function includes docstring and comments\nWeight: 20%",
+          "question_id": "question_2",
+          "aspect": "documentation",
+          "description": "Function includes docstring and comments",
+          "weight": 20,
+          "similarity": 0.14587843418121338
+        }
+      ]
+    },
+    "question_3": {
+      "aspect_scores": {
+        "presentation": {
+          "score": 9.0,
+          "max_score": 10,
+          "weight": 30
+        },
+        "correctness": {
+          "score": 10.0,
+          "max_score": 10,
+          "weight": 40
+        },
+        "analysis": {
+          "score": 8.0,
+          "max_score": 10,
+          "weight": 30
+        }
+      },
+      "final_score": 9.0,
+      "confidence": 70,
+      "feedback": "The plot is well-labeled with a clear title and appropriate formatting. The data visualization accurately represents the student counts for each grade. However, the analysis could be more detailed, such as discussing the implications of the grade distribution or comparing it to expectations.",
+      "reasoning_summary": "SCORES: [Presentation: 9/10, Correctness: 10/10, Analysis: 8/10]  \nFEEDBACK: The plot is well-labeled with a clear title and appropriate formatting. The data visualization accurately represents the student counts for each grade. However, the analysis could be more detailed, such as discussing the implications of the grade distribution or comparing it to expectations.  \nOVERALL: 9/10",
+      "question_id": "question_3",
+      "raw_response": "SCORES: [Presentation: 9/10, Correctness: 10/10, Analysis: 8/10]  \nFEEDBACK: The plot is well-labeled with a clear title and appropriate formatting. The data visualization accurately represents the student counts for each grade. However, the analysis could be more detailed, such as discussing the implications of the grade distribution or comparing it to expectations.  \nOVERALL: 9/10",
+      "rubric_criteria_used": [
+        {
+          "text": "Question: question_3\nAspect: presentation\nDescription: Plot has proper labels, title, and formatting\nWeight: 30%",
+          "question_id": "question_3",
+          "aspect": "presentation",
+          "description": "Plot has proper labels, title, and formatting",
+          "weight": 30,
+          "similarity": 0.39551249146461487
+        },
+        {
+          "text": "Question: question_3\nAspect: correctness\nDescription: Data visualization accurately represents the data\nWeight: 40%",
+          "question_id": "question_3",
+          "aspect": "correctness",
+          "description": "Data visualization accurately represents the data",
+          "weight": 40,
+          "similarity": 0.34683799743652344
+        },
+        {
+          "text": "Question: question_3\nAspect: analysis\nDescription: Written analysis interprets the visualization correctly\nWeight: 30%",
+          "question_id": "question_3",
+          "aspect": "analysis",
+          "description": "Written analysis interprets the visualization correctly",
+          "weight": 30,
+          "similarity": 0.27624186873435974
+        }
+      ]
+    }
+  },
+  "timestamp": "2025-07-07T13:36:56.169580"
+}

@@ -1,0 +1,158 @@
+{
+  "notebook_path": "Test/good_sample_notebook.ipynb",
+  "overall_score": 9.222222222222221,
+  "overall_confidence": 91.66666666666667,
+  "questions_graded": 3,
+  "question_results": {
+    "question_1": {
+      "reasoning_steps": {
+        "understanding": "The question is asking for a function that calculates the sum of a list of numbers. The expected approach is to iterate through the list and accumulate the total, which the student has correctly identified.",
+        "correctness": "The code correctly implements the function to sum the numbers in the list. There are no logical errors, and the function should work for any list of numbers. The test case provided also confirms that the function works as intended.",
+        "quality": "The code is well-written and follows Python best practices. The variable names are clear and descriptive. However, the indentation of the function could be improved for better readability, as it appears to be inconsistent.",
+        "explanation": "The markdown explanation is clear and describes the approach well. It outlines the method used to solve the problem and indicates that the approach is straightforward.",
+        "output": "The code output is not provided, but based on the implementation, we can infer that the output would correctly display the sum of the test list [1, 2, 3, 4, 5] as 15."
+      },
+      "rubric_breakdown": {
+        "correctness": {
+          "score": 10,
+          "max": 10
+        },
+        "style": {
+          "score": 8.0,
+          "max": 10
+        },
+        "explanation": {
+          "score": 9.0,
+          "max": 10
+        }
+      },
+      "confidence": 90,
+      "final_score": 9.0,
+      "feedback": "Great job on implementing the function correctly and providing a clear explanation. Pay attention to code indentation for better readability. Overall, a strong submission!",
+      "question_id": "question_1",
+      "raw_response": "- Understanding Check: The question is asking for a function that calculates the sum of a list of numbers. The expected approach is to iterate through the list and accumulate the total, which the student has correctly identified.\n- Correctness Check: The code correctly implements the function to sum the numbers in the list. There are no logical errors, and the function should work for any list of numbers. The test case provided also confirms that the function works as intended.\n- Quality Check: The code is well-written and follows Python best practices. The variable names are clear and descriptive. However, the indentation of the function could be improved for better readability, as it appears to be inconsistent.\n- Explanation Check: The markdown explanation is clear and describes the approach well. It outlines the method used to solve the problem and indicates that the approach is straightforward.\n- Output Check: The code output is not provided, but based on the implementation, we can infer that the output would correctly display the sum of the test list [1, 2, 3, 4, 5] as 15.\n- Rubric Breakdown: [Correctness: 10/10 points, Style: 8/10 points, Explanation: 9/10 points]\n- Confidence Level: 90% (I am confident in this grade, but there is a minor concern regarding the indentation style.)\n- Final Score: 9/10\n- Feedback: Great job on implementing the function correctly and providing a clear explanation. Pay attention to code indentation for better readability. Overall, a strong submission!",
+      "rubric_criteria_used": [
+        {
+          "text": "Question: question_1\nAspect: correctness\nDescription: Code correctly calculates the sum of numbers in a list\nWeight: 50%",
+          "question_id": "question_1",
+          "aspect": "correctness",
+          "description": "Code correctly calculates the sum of numbers in a list",
+          "weight": 50,
+          "similarity": 0.45721495151519775
+        },
+        {
+          "text": "Question: question_1\nAspect: style\nDescription: Code follows Python best practices with clear variable names\nWeight: 25%",
+          "question_id": "question_1",
+          "aspect": "style",
+          "description": "Code follows Python best practices with clear variable names",
+          "weight": 25,
+          "similarity": 0.22698010504245758
+        },
+        {
+          "text": "Question: question_1\nAspect: explanation\nDescription: Markdown explanation describes the approach clearly\nWeight: 25%",
+          "question_id": "question_1",
+          "aspect": "explanation",
+          "description": "Markdown explanation describes the approach clearly",
+          "weight": 25,
+          "similarity": 0.07350662350654602
+        }
+      ]
+    },
+    "question_2": {
+      "reasoning_steps": {
+        "understanding": "The question is asking for a function that finds the maximum value in a list of numbers, with specific emphasis on handling empty lists appropriately. The expected approach involves checking for an empty list and then iterating through the list to find the maximum value. The student demonstrates a clear understanding of the requirements.",
+        "correctness": "The code correctly implements the logic to find the maximum value and raises a `ValueError` for empty lists. There are no logical errors present, and the function should work as intended for various inputs. The correctness is solid.",
+        "quality": "The code is well-structured and adheres to Python conventions. The use of a docstring is appropriate, and the code is readable. There are no style issues, and it follows best practices for defining functions and handling exceptions.",
+        "explanation": "The markdown explanation provides a clear overview of the solution approach, indicating that the student understands the problem. However, it could be slightly more detailed in describing the implementation steps.",
+        "output": "The output section shows that the function is tested with a regular list and an edge case (empty list). The handling of the empty list is demonstrated correctly, and the expected output is clearly stated. The results are interpreted correctly."
+      },
+      "rubric_breakdown": {
+        "correctness": {
+          "score": 10,
+          "max": 10
+        },
+        "edge_cases": {
+          "score": 10,
+          "max": 10
+        },
+        "documentation": {
+          "score": 8.0,
+          "max": 10
+        }
+      },
+      "confidence": 90,
+      "final_score": 9.0,
+      "feedback": "Excellent job on implementing the function and handling edge cases! The code is correct and well-documented. To improve, consider providing a bit more detail in your markdown explanation to fully convey your thought process.",
+      "question_id": "question_2",
+      "raw_response": "- Understanding Check: The question is asking for a function that finds the maximum value in a list of numbers, with specific emphasis on handling empty lists appropriately. The expected approach involves checking for an empty list and then iterating through the list to find the maximum value. The student demonstrates a clear understanding of the requirements.\n  \n- Correctness Check: The code correctly implements the logic to find the maximum value and raises a `ValueError` for empty lists. There are no logical errors present, and the function should work as intended for various inputs. The correctness is solid.\n  \n- Quality Check: The code is well-structured and adheres to Python conventions. The use of a docstring is appropriate, and the code is readable. There are no style issues, and it follows best practices for defining functions and handling exceptions.\n  \n- Explanation Check: The markdown explanation provides a clear overview of the solution approach, indicating that the student understands the problem. However, it could be slightly more detailed in describing the implementation steps.\n  \n- Output Check: The output section shows that the function is tested with a regular list and an edge case (empty list). The handling of the empty list is demonstrated correctly, and the expected output is clearly stated. The results are interpreted correctly.\n  \n- Rubric Breakdown: [Correctness: 10/10 points, Edge_Cases: 10/10 points, Documentation: 8/10 points]\n  \n- Confidence Level: 90% (I am confident in this grade as the function meets all requirements and handles edge cases well.)\n  \n- Final Score: 9/10  \n- Feedback: Excellent job on implementing the function and handling edge cases! The code is correct and well-documented. To improve, consider providing a bit more detail in your markdown explanation to fully convey your thought process.",
+      "rubric_criteria_used": [
+        {
+          "text": "Question: question_2\nAspect: correctness\nDescription: Function correctly finds the maximum value in a list\nWeight: 60%",
+          "question_id": "question_2",
+          "aspect": "correctness",
+          "description": "Function correctly finds the maximum value in a list",
+          "weight": 60,
+          "similarity": 0.4408724308013916
+        },
+        {
+          "text": "Question: question_2\nAspect: edge_cases\nDescription: Code handles edge cases like empty lists appropriately\nWeight: 20%",
+          "question_id": "question_2",
+          "aspect": "edge_cases",
+          "description": "Code handles edge cases like empty lists appropriately",
+          "weight": 20,
+          "similarity": 0.3527600169181824
+        },
+        {
+          "text": "Question: question_2\nAspect: documentation\nDescription: Function includes docstring and comments\nWeight: 20%",
+          "question_id": "question_2",
+          "aspect": "documentation",
+          "description": "Function includes docstring and comments",
+          "weight": 20,
+          "similarity": 0.05967950075864792
+        }
+      ]
+    },
+    "question_3": {
+      "reasoning_steps": {
+        "understanding": "The question asks for a data visualization (bar chart) representing the frequency of different grades in a class, along with an analysis of the results. The expected approach is to create a bar chart using the provided data and to interpret the results in a written analysis. The student has understood this requirement.",
+        "correctness": "The code correctly creates a bar chart representing the grades and their frequencies. There are no logical errors in the code, and the visualization accurately reflects the provided data. The analysis is also correct in interpreting the results.",
+        "quality": "The code is well-structured and follows good practices, such as using proper variable names and including comments. The plot has appropriate formatting and color coding. There are no significant style issues.",
+        "explanation": "The markdown explanation provides a clear analysis of the bar chart. It correctly interprets the data, noting the distribution of grades and the overall performance of the class. The analysis is coherent and relevant.",
+        "output": "The expected output of the code is a bar chart that accurately represents the data. The analysis provided in the markdown is correct and aligns with the visualization."
+      },
+      "rubric_breakdown": {},
+      "confidence": 95,
+      "final_score": 9.666666666666666,
+      "feedback": "Excellent job on the data visualization and analysis! The chart accurately represents the grade distribution, and your interpretation is insightful. Consider enhancing the color scheme for better visual distinction in future plots.",
+      "question_id": "question_3",
+      "raw_response": "- Understanding Check: The question asks for a data visualization (bar chart) representing the frequency of different grades in a class, along with an analysis of the results. The expected approach is to create a bar chart using the provided data and to interpret the results in a written analysis. The student has understood this requirement.\n  \n- Correctness Check: The code correctly creates a bar chart representing the grades and their frequencies. There are no logical errors in the code, and the visualization accurately reflects the provided data. The analysis is also correct in interpreting the results. \n\n- Quality Check: The code is well-structured and follows good practices, such as using proper variable names and including comments. The plot has appropriate formatting and color coding. There are no significant style issues.\n\n- Explanation Check: The markdown explanation provides a clear analysis of the bar chart. It correctly interprets the data, noting the distribution of grades and the overall performance of the class. The analysis is coherent and relevant.\n\n- Output Check: The expected output of the code is a bar chart that accurately represents the data. The analysis provided in the markdown is correct and aligns with the visualization.\n\n- Rubric Breakdown: \n  - Correctness: 10/10 points\n  - Presentation: 9/10 points (the plot is well-labeled, but could have a more visually distinct color scheme)\n  - Analysis: 10/10 points\n\n- Confidence Level: 95% (I am very confident in this grade as the student met all the requirements effectively.)\n\n- Final Score: 29/30\n\n- Feedback: Excellent job on the data visualization and analysis! The chart accurately represents the grade distribution, and your interpretation is insightful. Consider enhancing the color scheme for better visual distinction in future plots.",
+      "rubric_criteria_used": [
+        {
+          "text": "Question: question_3\nAspect: correctness\nDescription: Data visualization accurately represents the data\nWeight: 40%",
+          "question_id": "question_3",
+          "aspect": "correctness",
+          "description": "Data visualization accurately represents the data",
+          "weight": 40,
+          "similarity": 0.304869681596756
+        },
+        {
+          "text": "Question: question_3\nAspect: presentation\nDescription: Plot has proper labels, title, and formatting\nWeight: 30%",
+          "question_id": "question_3",
+          "aspect": "presentation",
+          "description": "Plot has proper labels, title, and formatting",
+          "weight": 30,
+          "similarity": 0.26812589168548584
+        },
+        {
+          "text": "Question: question_3\nAspect: analysis\nDescription: Written analysis interprets the visualization correctly\nWeight: 30%",
+          "question_id": "question_3",
+          "aspect": "analysis",
+          "description": "Written analysis interprets the visualization correctly",
+          "weight": 30,
+          "similarity": 0.23657268285751343
+        }
+      ]
+    }
+  },
+  "timestamp": "2025-07-07T14:51:00.711665"
+}
